@@ -1,11 +1,11 @@
 .globl main
 
 main:
-    mov    $1, %eax
-    mov    $5, %ebx
+    mov    $1, %rax
+    mov    $5, %rbx
     
-    xor    %eax, %ebx
-    xor    %ebx, %eax
-    xor    %eax, %ebx
+    xor    %rax, %rbx
+    xor    %rbx, %rax
+    xor    %rax, %rbx
     
     ret
