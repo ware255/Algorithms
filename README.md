@@ -5,6 +5,7 @@
 ## 使い方
 ソースコードがどのように動くか確認したい場合は、gccでコンパイルしてください。
 ```
-$ sudo apt install gcc
+$ sudo apt install gcc gdb
 $ gcc souce_code.s
 ```
+コンパイルし終わったら、gdbでレジスタの中身がどのように変わっていくのか見てみて下さい。
