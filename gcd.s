@@ -7,7 +7,6 @@ gcd:
     cmp    $0, %rdx
     jz     gcd_end
     jmp    gcd
-    ret
 
 gcd_end:
     ret
